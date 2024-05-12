@@ -1,0 +1,26 @@
+Изменение в модулях
+
+Добавлен модуль "PlayerESP" в раздел "Misc".
+Добавлен модуль "PingMeter" в раздел "Misc".
+Добавлен модуль "NameProtect" в раздел "Misc".
+Добавлен модуль "BlockSelection" в раздел "Misc".
+Обновлен модуль "Chams".
+Обновлен модуль "Coordinates".
+Обновлен модуль "FastUnban".
+Обновлен модуль "EditionFaker".
+Исправлен и обновлен модуль "NameTags".
+Исправлен модуль "Scaffold".
+Исправлен модуль "Configs" - теперь можно загружать конфиги из любого места, кроме экрана загрузки мира/сервера (не гарантирую что не крашнет).
+Исправлен баг с перевернутым экраном (вроде).
+Исправлен баг с обводкой биндов в активном состоянии.
+Попытался исправить краши (ничего не обещаю).
+
+Изменение в API
+
+Добавлен хук "onReceiveServerMessage(String message);".
+Добавлен метод "LocalPlayer.setNameTag(String nameTag);".
+Добавлен метод "Player.setNameTag(int uniqueID, String nameTag);".
+Добавлен метод "Item.enchant(int slot, int enchantment, int level);".
+Добавлен константный класс "Enchantment".
+Исправлен метод "Level.getAddress();".
+Исправлен метод "Level.getPort();".

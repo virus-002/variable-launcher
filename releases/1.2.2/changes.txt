@@ -1,0 +1,11 @@
+Изменения в модулях
+
+Добавлен модуль "AttackParticles" в раздел "Misc".
+Исправлен модуль "EditionFaker".
+
+
+Изменения в API
+
+Добавлен метод "Level.addParticle(int type, double x, double y, double z, int size);"
+Добавлен новый константный класс "ParticleType".
+Методы "Level.setTitle(String message);" и "Level.setSubtitle(String message);" объединены в "Level.setTitle(String title, String subtitle);".

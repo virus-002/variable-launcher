@@ -1,0 +1,9 @@
+Изменения в модулях
+
+Обновлен модуль "TapTp".
+
+
+Изменения в API
+
+Добавлен метод "Item.setName(int slot, String name);".
+Исправлен метод "LocalPlayer.getPointedVector();".

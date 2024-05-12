@@ -1,0 +1,41 @@
+Изменения в модулях
+
+Добавлен модуль "NameTags" в раздел "Misc".
+Добавлен модуль "NoClip" в раздел "Misc".
+Добавлен модуль "AspectRatio" в раздел "Misc".
+Добавлен модуль "NoDynamicFov" в раздел "Misc".
+Добавлен модуль "TapTp" в раздел "Movement".
+Добавлен модуль "NoRender" в раздел "Misc".
+Добавлен модуль "FastPotion" в раздел "Player".
+Обновлен "AimBot".
+Обновлен "AntiAFK".
+Обновлен "FreeCam".
+Обновлен "Flight".
+Обновлен "GhostMode".
+Немного обновлен "CustomDPI".
+Исправлен "BedFucker".
+Исправлен "TriggerBot".
+Исправлен "ChatMacros".
+Исправлен "FastBreak".
+Исправлен модуль "FastPearl".
+Модуль "FastLadder" перенесен в раздел "Movement".
+Модуль "Step" перенесен в раздел "Movement".
+Модуль "Coordinates" перенесен в раздел "Player".
+Удален модуль "Check for updates".
+Небольшие изменения
+
+Изменения в API
+
+Добавлена функция "getFriends();".
+Добавлена функция "isFriend(String name);".
+Добавлена функция "addFriend(String name);".
+Добавлена функция "removeFriend(String name);".
+Добавлен метод "LocalPlayer.isMovingForward();".
+Добавлен метод "Memory.read(int address, int length);".
+Добавлен метод "ModuleManager.removeModules(Module[] modules);".
+Метод "Memory.patch" переименован на "Memory.write".
+Удален метод "Module.addSetting(String moduleName, Setting setting);".
+Удален метод "Module.addSettings(String moduleName, Setting[] settings);".
+Удален метод "Data.clear();".
+Исправлен метод "Item.getName(int slot);".
+Исправлен краш с "onClickListener" и "onToggleListener".
